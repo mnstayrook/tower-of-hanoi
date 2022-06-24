@@ -3,19 +3,22 @@
     <title>Tower of Hanoi</title>
     <link rel="stylesheet" href="./styles.css">
 
+  
   </head>
 
   <body>
-    <h1>Tower of Hanoi</h1>
-
-    <button onclick="makeMove()" id="makemove">Make Move</button>
-    
-    <div>
-      <input type="number" id="numDisk" name="numDisk">
-      <button onclick="document.getElementById('numDisk').value;">Submit Hanoi Disk Amount</button>
-    </div>
-
-    <button onclick="window.location.reload();">Restart Game</button>
+    <div class="centered">
+      <h1 class="header1">Tower of Hanoi</h1>
+      <div class="center">
+          <a href="https://mnstayrook.github.io"><button>Portfolio Home</button></a>
+          <p></p>
+          <div>
+            <input type="number" id="numDisk" name="numDisk" placeholder="# of Disks (default 5)">
+          </div>
+          <button onclick="makeMove()" id="makemove">Make Move</button>
+          <button onclick="window.location.reload();">Restart Game</button>
+      </div>
+  </div>
 
     <div class="game" id="game"></div>
     

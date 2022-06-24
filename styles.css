@@ -1,14 +1,14 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: hsla(175, 93%, 89%, 0.92);
+  background: #E6F4F6;
 }
 
 .game {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: hsla(175, 93%, 89%, 0.92);
+  background: #E6F4F6;
   margin: 0px 25%;
 }
 
@@ -29,3 +29,50 @@ body {
   border-radius: 5%;
   position: absolute;
 }
+
+div.topnavbar {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 5fr;
+  align-items: center;
+  width: 750px;
+  margin: auto;
+  padding: 00.5rem;
+}
+.topnavbar a {
+  padding: 0.5rem;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnavbar a:link {
+  color: darkblue;
+}
+.topnavbar a:visited {
+  color: darkblue;
+}
+.topnavbar a:hover {
+  color: gray;
+}
+.topnavbar a:active {
+  color: maroon;
+}
+
+
+.header1 {
+  font-family: Papyrus;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+p {
+font-family: Garamond;
+text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
